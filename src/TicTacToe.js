@@ -47,7 +47,7 @@ function TicTacToe() {
           grid[winCombination[i][2]] === B_PLAYER
         ) {
           setGameFinished(true);
-          setwinCount({ ...winCount, A: winCount.B + 1 });
+          setwinCount({ ...winCount, B: winCount.B + 1 });
           console.log("B WON");
           return;
         }
